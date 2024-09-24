@@ -121,6 +121,8 @@ flex-direction: row;
 align-items: center;
 justify-content: space-evenly;
 border-radius: 6px;
+border: none;
+padding: 10px;
 }
 /*card styling*/
 main{
@@ -150,10 +152,31 @@ flex-direction: column;
 section{
 display: flex;
 flex-direction: column;
+gap: 10px;
+cursor: pointer;
 }
 
 
 /*footer*/
 .attribution{
 color: white;
+}
+
+/*links for buttons*/
+a{
+  text-decoration:none;
+}
+a :active  :focus-visible{
+background-color: hsl(75, 94%, 57%);
+color: black;
+}
+
+a :hover{
+  background-color: hsl(75, 94%, 57%);
+color: black;
+}
+
+a :focus{
+  background-color: hsl(75, 94%, 57%);
+color: black;
 }
