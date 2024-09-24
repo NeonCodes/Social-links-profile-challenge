@@ -81,6 +81,7 @@ html{
     font-family: "Inter", sans-serif;
 }
 
+
 img{
 border-radius: 80%;
 max-width: 100px;
@@ -91,6 +92,7 @@ width: 100%;
 /*name*/
 h1{
 font-size: 1.5rem;
+font-weight: 700;
 font-family: "Inter-Bold", sans-serif ;
 color: hsl(0, 0%, 100%);
 }
@@ -98,38 +100,57 @@ color: hsl(0, 0%, 100%);
 h2{
     font-size: 1rem;
     color: hsl(75, 94%, 57%);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 p{
-    font-size: 1rem;
-    color: lightgrey;
-    font-weight: 400;
+  font-size: 1rem;
+  color: lightgrey;
+  font-weight: 400;
+  padding-bottom: 12px;
 }
 /*button styling*/
 button{
-    font-family: "Inter Semi-Bold", sans-serif;
+font-family: "Inter Semi-Bold", sans-serif;
 font-size: 1 rem;
 font-weight: 600;
 color: white;
-background-color: black;
+background-color: hsl(0, 0%, 20%);
 display: flex;
 flex-direction: row;
+align-items: center;
+justify-content: center;
 }
-
+/*card styling*/
 main{
-    max-width: 400px;
-    max-height: 1000px;
-    border: 1px solid white;
+  max-width: 600px;
+  max-height: 1000px;
+  border: 1px solid white;
+  padding: 24px;
+  margin: 24px;
 }
 
+/*center card*/
 body{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
+/*flex container for img,h1 and h2*/
+header{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+/*flex container for buttons*/
+section{
+display: flex;
+flex-direction: column;
+}
 
+
+/*footer*/
 .attribution{
 color: white;
 }
