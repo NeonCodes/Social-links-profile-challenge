@@ -74,11 +74,17 @@ textarea:not([rows]) {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+  font-family:"Inter" ;
+  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf) format('woff2');
+  src:url(/assets/fonts/static/Inter-Bold.ttf);
+  src: url(assets/fonts/static/Inter-Regular.ttf);
+  src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
 
 html{
   background-color:hsl(0, 0%, 8%);
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
 }
 
 
@@ -104,15 +110,16 @@ h2{
 }
 
 p{
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: lightgrey;
   font-weight: 400;
   padding-bottom: 12px;
+  padding-top: 5px;
 }
 /*button styling*/
 .button1, .button2, .button3, .button4, .button5{
 font-family: "Inter Semi-Bold", sans-serif;
-font-size: 1 rem;
+font-size: 0,875rem;
 font-weight: 600;
 color: white;
 background-color: hsl(0, 0%, 20%);
@@ -122,15 +129,17 @@ align-items: center;
 justify-content: space-evenly;
 border-radius: 6px;
 border: none;
-padding: 10px;
+padding: 8px;
+margin: 1px;
 }
+
 /*card styling*/
 main{
-  max-width: 800px;
-  max-height: 1000px;
+  max-width: 1440px;
+  max-height: 600px;
   border: 1px;
   padding: 40px;
-  margin: 30px;
+  margin: 40px;
   border-radius: 10px;
   background-color: hsl(0, 0%, 12%);
 }
