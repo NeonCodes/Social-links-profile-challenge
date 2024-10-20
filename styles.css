@@ -135,11 +135,12 @@ margin: 1px;
 
 /*card styling*/
 main{
+  min-width: 375px;
   max-width: 1440px;
-  max-height: 600px;
+  max-height: 650px;
   border: 1px;
   padding: 40px;
-  margin: 40px;
+  margin: 30px;
   border-radius: 10px;
   background-color: hsl(0, 0%, 12%);
 }
@@ -201,7 +202,5 @@ color: white;
 background-color: hsl(75, 94%, 57%) ;
 color: black;
 }
-@media (max-width: 1440px), screen and (orientation: portrait) {
-  /* … */
-}
+
 
